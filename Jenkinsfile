@@ -5,5 +5,5 @@ node {
     archive 'target/*.war'
   }
 
-  docker.build('kohsuke/acmecorp-app').push
+  docker.build('kohsuke/acmecorp-app').push()
 }
