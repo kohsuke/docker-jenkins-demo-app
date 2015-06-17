@@ -1,4 +1,4 @@
 FROM kohsuke/acmecorp-base
 
-COPY test-webapp.war /usr/local/tomcat/webapps/ROOT.war
+COPY target/test-webapp.war /usr/local/tomcat/webapps/ROOT.war
 

@@ -5,6 +5,5 @@ node {
     archive 'target/*.war'
   }
 
-  unarchive mapping:['target/*.war':'.']
   docker.build('kohsuke/acmecorp-app').push
 }
