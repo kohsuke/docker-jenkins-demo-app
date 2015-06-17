@@ -1,4 +1,4 @@
-mvn = docker.image 'maven:3.2-jdk-7-onbuild'
+mvn = docker.image 'kohsuke/acmecorp-buildenv'
 
 mvn.inside {
     git 'https://github.com/kohsuke/docker-jenkins-demo-app.git'
