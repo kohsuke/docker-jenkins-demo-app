@@ -6,4 +6,6 @@ node {
   }
 
   docker.build('kohsuke/acmecorp-app').push()
+
+  sh './deploy.sh'
 }
